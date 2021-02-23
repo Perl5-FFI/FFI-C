@@ -11,7 +11,7 @@ use base qw( FFI::C::File );
 =head1 SYNOPSIS
 
  use FFI::C::PosixFile;
-
+ 
  my $stdout = FFI::C::PosixFile->fdopen(1, "w");
  say $stdout->fileno;  # prints 1
 
@@ -101,11 +101,17 @@ else
 
 =item L<FFI::C::ArrayDef>
 
+=item L<FFI::C::ASCIIString>
+
+=item L<FFI::C::Buffer>
+
 =item L<FFI::C::Def>
 
 =item L<FFI::C::File>
 
 =item L<FFI::C::PosixFile>
+
+=item L<FFI::C::String>
 
 =item L<FFI::C::Struct>
 
